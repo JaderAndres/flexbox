@@ -1,0 +1,52 @@
+﻿body {
+    color: black;
+    font-family: 'Century Gothic';
+}
+
+header, nav {
+   background-color: white;
+}
+
+footer {
+    background:rgb(173, 218, 173);
+    text-align:center;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: black;
+    text-align:center;
+    padding: 10px;
+}
+
+#secc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background: gray;
+    padding: 10px;
+}
+
+article {
+    margin: 4px;
+    background:white;
+    text-align: justify;
+    padding: 8px;
+}
+
+aside {
+    background: white;
+    text-align: justify;
+    padding: 12px;
+}
